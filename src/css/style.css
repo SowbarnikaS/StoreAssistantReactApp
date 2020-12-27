@@ -1,0 +1,179 @@
+body {
+    font-family: Roboto, sans-serif;
+    font-size:12px;
+    color: #414141;
+}
+
+.footer {
+    width: 100%;
+    background-color: #e7e7e7;
+    border-top: 1px solid #ddd;
+}
+
+footer .text-muted {
+    margin-top: 10px;
+}
+
+div.container-fluid {
+    margin-bottom: 5px;
+}
+
+.logout {
+    background: none !important;
+    border: none;
+    padding: 0 !important;
+    color: #ffffff ;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.logout:hover{
+    color: #414141;
+}
+
+.cusCardText{
+    margin:   0.6em 0;  
+}
+
+.cusSubtitle{
+    font-size: 1.1em;
+}
+.cusTitle{
+    font-size: 1.3em;
+}
+
+.chatBtn{
+    display: initial!important;
+    z-index: 2147483647;
+    position: fixed!important;
+    bottom:3em;
+    right:5em;
+}
+
+.noBtnStyle{
+    background: none!important;
+    border: none!important;
+    color:#e9ecef;
+}
+
+.noBtnStyle:focus{
+    box-shadow: none!important;
+    border: none!important;
+}
+
+.chatWindow{
+    display: initial!important;
+    z-index: 6147483647;
+    position: fixed!important;
+    bottom:3em;
+    right:5em;
+    height:72vh;
+    width:27vw; 
+}
+
+.msgDisplay{
+    margin: 1em 1.2em 1.4em 0;
+    width:88%;
+}
+
+.chatBody{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.chatWidget{
+    height: inherit;
+}
+
+.botMessage{
+    align-self: left;
+    max-width: 80%;
+    height: max-content;
+    padding: .8rem;
+
+}
+
+.userMessage{
+    align-self: right;
+    max-width: 80%;
+    height: max-content;
+    background-color: #4285f4;
+    box-sizing: border-box;
+    border-radius: 8px 0px 8px 8px;
+    color:  #ffffff; 
+}
+
+.avail-width{
+    width:-webkit-fill-available;
+    width: -moz-available;          
+    width: -webkit-fill-available;  
+    width: stretch;
+}
+
+.login-body{
+    height:80vh;
+}
+
+.msgBorder{
+    background-color: #d2d6da;
+    box-sizing: border-box;
+    border-radius: 0px 8px 8px 8px;
+    box-shadow: 1px 1px 2px 0 #bfbfbf;
+    color:  #414141;
+}
+
+.customBlueBg{
+    background-color: #1973e8!important;
+}
+
+.widgetHeader{
+    background-color: #1973e8;
+    color:white;
+    box-shadow: 1px 1px 2px 0 #bfbfbf;
+}
+
+.customGreyBg{
+    background-color: #d2d6da;
+}
+
+.toRight{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-left: 8px;
+}
+
+@media only screen and (max-width: 720px) {
+    .chatWindow {
+   height: 70%;
+   width: 80%;
+    }
+  }
+
+  @media only screen and (max-width: 920px) {
+    .chatWindow {
+   height: 70%;
+   width: 80%;
+    }
+  }
+
+  .cusNavbar{
+    height: 5em;
+    background-color: #1973e8;
+  }
+
+  .chatWidgetIcon{
+    width: 7em;
+  }
+
+  .chatIcon{
+      width:4.5em;
+  }
+
+  .userIcon{
+      width:4.2em;
+  }
+
+  .chatHeadericon{
+    width:4em;
+  }
